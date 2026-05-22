@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import '../styles/globals.css';
+import { NavMenu } from '../components/NavMenu/NavMenu';
 
 export const metadata: Metadata = {
   title: 'Financial Stock Broker Agent',
@@ -16,7 +17,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <NavMenu />
+        {children}
+      </body>
     </html>
   );
 }

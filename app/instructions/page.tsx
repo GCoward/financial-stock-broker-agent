@@ -8,7 +8,7 @@ export default function InstructionsPage() {
           <p className="mb-2 text-sm uppercase tracking-[0.24em] text-slate-400">Instructions</p>
           <h1 className="text-4xl font-semibold text-white">How to use the Financial Stock Broker Agent</h1>
           <p className="mt-4 text-slate-300">
-            A step-by-step guide for signing in, reviewing your portfolio, placing trades, and interpreting the agent's responses.
+            A step-by-step guide for signing in, reviewing your portfolio, placing trades, and interpreting the agent&apos;s responses.
           </p>
         </header>
 

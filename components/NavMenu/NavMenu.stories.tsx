@@ -1,14 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { NavMenu } from './NavMenu';
 
-// ? Decorator mocks Next.js 16 navigation hooks (usePathname, useRouter)
-//   required by NavMenu so Storybook renders without router context errors.
-const withNextNavigation = (Story: React.ComponentType) => {
-  const { fn } = require('@storybook/test');
-  jest: void 0; // suppress jest global leak in Storybook context
-  // Patch next/navigation at module level via Storybook's module mock
-  return <Story />;
-};
 
 const meta: Meta<typeof NavMenu> = {
   title: 'Components/NavMenu',

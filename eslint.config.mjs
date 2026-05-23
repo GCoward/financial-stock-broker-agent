@@ -50,6 +50,7 @@ export default defineConfig([
       '.next/**',
       'out/**',
       'build/**',
+      'storybook-static/**',
       'next-env.d.ts',
       'eslint.config.mjs',
       'next.config.mjs',

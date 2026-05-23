@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { NavMenu } from './NavMenu';
 
-
 const meta: Meta<typeof NavMenu> = {
   title: 'Components/NavMenu',
   component: NavMenu,
